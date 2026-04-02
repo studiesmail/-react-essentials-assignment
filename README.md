@@ -26,7 +26,7 @@ npm start
 
 ## Live Link
 
-* Portfolio: https://your-link.com
+* Portfolio: https://react-essentials-assignment-ra8o.vercel.app/
 * Movie App: https://your-link.com
 
 ## What I Learned
