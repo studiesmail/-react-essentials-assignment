@@ -1,0 +1,179 @@
+/* Root Colors */
+:root{
+    --primary: #667eea;
+    --secondary: #764ba2;
+
+    --text-dark: #222;
+    --text-medium: #555;
+    --text-light: #888;
+
+    --bg-light: #ffffff;
+    --bg-dark: #1e1e2f;
+}
+
+/* Card */
+.portfolio-card{
+    max-width: 380px;
+    margin: 50px auto;
+    background: var(--bg-light);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.portfolio-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Header */
+.portfolio-header{
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-decoration{
+    width: 60px;
+    height: 4px;
+    background: white;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Content */
+.card-content{
+    padding: 15px;
+    text-align: center;
+}
+
+/* Avatar */
+.avatar-container{
+    margin-bottom: 20px;
+}
+
+.avatar-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--primary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.avatar-image:hover{
+    transform: scale(1.05);
+    border-color: var(--secondary);
+}
+
+/* Personal Info */
+.name{
+    margin: 10px 0;
+    font-size: 1.6rem;
+    color: var(--text-dark);
+}
+
+.role{
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.location, .email{
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+/* Bio */
+.bio-section{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.bio-section h3{
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.bio-text{
+    color: var(--text-medium);
+    line-height: 1.5;
+}
+
+/* Skills */
+.skill-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.skill-tag{
+    background: var(--primary);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.skill-tag:hover{
+    background: var(--secondary);
+    transform: scale(1.1);
+}
+
+.button-one{
+    margin-top: 20px;
+    border-top: 2px solid #667eea;
+}
+
+.button-two{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* Buttons */
+button{
+    margin: 8px 5px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: var(--secondary);
+    transform: translateY(-2px);
+}
+
+/* Likes */
+.likes{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Dark Mode */
+.dark{
+    background: var(--bg-dark);
+    color: white;
+}
+
+.dark .bio-text,
+.dark .location,
+.dark .email{
+    color: #ccc;
+}
+
+.dark .skill-tag{
+    background: #444;
+}
