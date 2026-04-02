@@ -18,8 +18,9 @@ This repo has two small projects I made while learning React.
 ## Setup
 
 Clone the repo and run:
-git clone https://github.com/studiesmail/-react-essentials-assignment/
+
 ```bash
+git clone https://github.com/studiesmail/-react-essentials-assignment/
 npm install
 npm start
 ```
@@ -27,7 +28,7 @@ npm start
 ## Live Link
 
 * Portfolio: https://react-essentials-assignment-ra8o.vercel.app/
-* Movie App: https://your-link.com
+* Movie App: https://react-essentials-assignment-theta.vercel.app/
 
 ## What I Learned
 
