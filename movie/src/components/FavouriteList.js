@@ -1,6 +1,5 @@
 // src/components/FavoritesSection.jsx
 import React from 'react';
-import MovieCard from './MovieCard';
 
 function FavoritesSection({ favoriteMovies, favorites, onToggleFavorite }) {
   if (favoriteMovies.length === 0) {
